@@ -1,0 +1,80 @@
+.hf {
+    font-family: Arial, sans-serif;
+    margin: 6px;
+    background: linear-gradient(to right, rgb(232, 232, 226), rgb(78, 75, 234));
+  }
+
+  .hf:hover {   
+    background: linear-gradient(to right, rgb(232, 232, 226), rgb(225, 159, 77));
+  }
+  
+  .hf-header {
+    background-color: #3c0f4d;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .hf-main {
+    display: flex;
+    justify-content: center;
+    padding: auto;
+  }  
+
+  .card-container-hf {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 12px;
+    margin-left: 4px;
+  }
+  
+  .card-hf{   
+    background: linear-gradient(to right, rgb(232, 232, 226), rgba(128, 227, 118, 0.908));
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    width: 360px;
+    margin: 10px;
+    transition: transform 0.2s;
+    overflow: hidden;
+  }  
+  
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+  }
+  
+  .card-hf:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, rgb(232, 232, 226), rgba(102, 210, 210, 0.908));
+  }
+  
+  .card-hf h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 a {
+    text-decoration: none;
+    color: #0366d6;
+  }
+  
+  .card-hf h2 a:hover {
+    text-decoration: underline;
+  }
+  
+  .card-hf p {
+    font-size: 1em;
+    color: #333;
+  }
+ 

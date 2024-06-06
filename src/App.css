@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.contact-us,
+.sign-up,
+.marketing,
+.consulting,
+.fiveminsvideo,
+.design,
+.development{
+  display: flex; 
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+
+.services{
+  display: flex; 
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+
+.generativeai {
+  display: flex-grow; 
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.advanced {
+  display: flex;
+  height: 100vh;
+  align-items: top-left;
+  justify-content: center;
+  font-size: 3rem;  
+}
+
+.videoconf-top { 
+  display: block;
+  height: 100vh;
+}
+
+.videoconf { 
+  display: flex;
+  height: 90vh;
+  align-items: top-left;
+  justify-content: center;
+  font-size: 3rem;  
+}
+
+.aivsgenai { 
+  display: flex;
+  height: 100vh;
+  align-items: top-center;
+  justify-content: center;
+  font-size: 3rem;  
+}
+
+
+/* .fiveminsvideo { 
+  display: flex;
+  height: 100vh;
+  align-items: top-center;
+  justify-content: center;
+  font-size: 3rem;  
+} */
+
+
+
+/* .home {
+  background-image: url('./images/OIP.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  } 
+*/
+
+.home {
+  background: linear-gradient(to right, rgb(232, 232, 226), rgb(206, 194, 32));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #180896;
+  font-size: 16px; 
+}
+
+.home:hover {
+  background: linear-gradient(to right,  rgb(210, 214, 210), rgb(50, 198, 42));
+  /* animation: changeColor 4s infinite;  */
+  animation-name: changeColor;
+  animation-duration: 4s;
+}
+
+/* .services {
+  background-image: url('./images/safari.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 20px;
+} */
+
+/* .products {
+  background-image: url('./images/aurora.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 18px;
+} */
+
+/* .contact-us {
+  background-image: url('./images/gradientDisplay.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #131111;
+  font-size: 30px;
+} */
+
+.sign-up {
+  background-image: url('./images/blueWater.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* .marketing {
+  background-image: url('./images/bluewhite4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #0d0c0c;
+  font-size: 18px;
+} */
+
+/* .consulting {
+  background-image: url('./images/butterFliesBlue.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 18px;
+} */
+
+/* .design {
+  background-image: url('./images/colorCombi.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 16px;
+} */
+
+/* .development {
+  background-image: url('./images/lighterBlue.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 16px;
+} */
+
+.services {
+  /* background-image: url('./images/safari.jpg'); */
+  background: linear-gradient(to right, rgb(241, 243, 245), rgb(75, 155, 230));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #171515;
+  font-size: 20px;
+}
+
+.services:hover {
+  background: linear-gradient(to right,  rgb(227, 224, 228), rgb(201, 83, 50));
+  /* animation: changeColor 4s infinite;  */
+  animation-name: changeColor;
+  animation-duration: 4s;
+}
+
+.products {
+  background: linear-gradient(to right,  rgb(227, 224, 228), rgb(184, 52, 15));
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #0f0808;
+  font-size: 18px;
+}
+
+.products:hover {
+  background: linear-gradient(to right,  rgb(227, 224, 228), rgb(60, 174, 16));
+  /* animation: changeColor 4s infinite;  */
+  animation-name: changeColor;
+  animation-duration: 4s;
+}
+
+
+.advancedtop{
+  margin-top: 10px; 
+}
+
+.advanced {
+  background: linear-gradient(to right, rgb(241, 243, 245), rgb(134, 191, 244));
+  background-position: center;
+  background-size: fill; 
+  color: #920505;
+  font-size: 16px;
+}
+
+.advanced:hover {
+  background: linear-gradient(to right, rgba(209, 217, 200, 0), rgb(129, 230, 114));
+  /* animation: changeColor 4s infinite;  */
+  animation-name: changeColor;
+  animation-duration: 4s;
+}
+
+@keyframes changeColor {
+  0%   { background-color: linear-gradient(to right, rgb(216, 235, 220), rgb(137, 228, 114)); } /* Initial color */
+  25%  { background-color: linear-gradient(to right, rgba(112, 62, 62, 0), rgb(212, 255, 0)); } /* Second color */
+  50%  { background-color: linear-gradient(to right, rgba(213, 206, 206, 0), rgb(8, 128, 141)); } /* Third color */
+  100% { background-color: linear-gradient(to right, rgba(229, 232, 226, 0), rgb(26, 141, 8)); } /* Final color */
+}
+
+.consulting {
+  background: linear-gradient(to right, rgb(234, 222, 237), rgb(197, 128, 68));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #180896;
+  font-size: 16px; 
+}
+
+.consulting:hover {
+  background: linear-gradient(to right,  rgb(227, 224, 228), rgb(55, 176, 207));
+  /* animation: changeColor 4s infinite;  */
+  animation-name: changeColor;
+  animation-duration: 4s;
+}
+
+.marketing {
+  background: linear-gradient(to right, rgb(234, 222, 237), rgb(94, 225, 65));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #180896;
+  font-size: 16px; 
+}
+
+.marketing:hover {
+  background: linear-gradient(to right,  rgb(227, 224, 228), rgb(173, 78, 231));
+  /* animation: changeColor 4s infinite;  */
+  animation-name: changeColor;
+  animation-duration: 4s;
+}
+
+.design {
+  background: linear-gradient(to right, rgb(224, 225, 227), rgb(57, 103, 195));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #180896;
+  font-size: 16px; 
+}
+
+.design:hover {
+  background: linear-gradient(to right,  rgb(227, 224, 228), rgb(231, 78, 124));
+  /* animation: changeColor 4s infinite;  */
+  animation-name: changeColor;
+  animation-duration: 4s;
+}
+
+.development {
+  background: linear-gradient(to right, rgb(241, 245, 244), rgb(42, 211, 205));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #180896;
+  font-size: 16px; 
+}
+
+.development:hover {
+  background: linear-gradient(to right,  rgb(247, 245, 244), rgb(200, 80, 62));
+  /* animation: changeColor 4s infinite;  */
+  animation-name: changeColor;
+  animation-duration: 4s;
+}
+
+.generativeai-top {
+  background: linear-gradient(to right, rgb(236, 234, 237), rgb(227, 157, 245)); 
+}
+
+.generativeai {
+  background: linear-gradient(to right, rgb(236, 234, 237), rgb(54, 193, 196));
+  background-position: center;
+  background-size: cover; 
+  color: #76090c;
+  font-size: 16px; 
+  height: auto;
+}
+
+.generativeai:hover {
+  background: linear-gradient(to right, rgb(236, 234, 237), rgb(119, 221, 172));
+  animation-name: changeColor;
+  animation-duration: 4s;
+}
+
+.contact-us {
+  background: linear-gradient(to right, rgb(236, 234, 237), rgb(49, 77, 218));
+  background-position: center;
+  background-size: fill; 
+  color: #181717;
+  font-size: 16px;  
+}
+
+.contact-us:hover {
+  background: linear-gradient(to right, rgb(236, 234, 237), rgb(235, 238, 85));
+  animation-name: changeColor;
+  animation-duration: 4s;
+}
+
+.videoconf {
+  display: block;
+  background: linear-gradient(to right, rgb(241, 243, 245), rgb(134, 191, 244));
+  background-position: center;
+  background-size: cover; 
+  color: #920505;
+  font-size: 16px;
+  /* margin:20px; */
+  /* padding:10px */
+}
+
+.videoconf:hover { 
+  background: linear-gradient(to right, rgb(241, 243, 245), rgb(129, 230, 114));
+  animation-name: changeColor;
+  animation-duration: 4s;
+}
+
+.fiveminsvideo{
+  background: linear-gradient(to right, rgb(234, 222, 237), rgb(197, 128, 68));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #180896;
+  font-size: 16px; 
+}
+
+.fiveminsvideo:hover {
+  background: linear-gradient(to right,  rgb(227, 224, 228), rgb(137, 89, 226));
+  /* animation: changeColor 4s infinite;  */
+  animation-name: changeColor;
+  animation-duration: 4s;
+}

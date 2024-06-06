@@ -1,0 +1,39 @@
+
+/* src/CondaDocumentation.css */
+
+.conda-docs {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    height: fit-content;
+    background: linear-gradient(to right, rgb(232, 232, 226), rgb(74, 131, 238));
+    height: fit-content;
+  }
+
+  .conda-docs:hover {
+    background: linear-gradient(to right, rgb(232, 232, 226), rgb(59, 253, 75));
+    /* transform: rotate(180deg); */
+}
+  
+  .command-window {
+    background: linear-gradient(to right, rgb(29, 8, 147), rgb(164, 234, 170));
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+  }
+
+  .command-window:hover {
+    background: linear-gradient(to right, rgb(29, 8, 147), rgb(220, 176, 224));    
+  }
+  
+  code {
+    display: block;
+    font-size: 14px;
+  }
+
+  .comment {
+    color: "red";
+  }
+  

@@ -1,0 +1,78 @@
+.animation-d {
+    height: 100vh;
+    background: linear-gradient(to right, rgb(232, 232, 226), rgb(74, 131, 238));
+}
+
+.animation-d:hover {
+    background: linear-gradient(to right, rgb(232, 232, 226), rgb(59, 253, 75));
+    transform: rotate(180deg);
+}
+
+.circle-d-container {
+    display: flex; 
+    margin: 0px; 
+    padding: 10px;
+    justify-content:center ;
+    align-content: center;
+  }
+  
+  .circle-d {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to bottom, rgb(247, 243, 243), rgb(207, 34, 43), rgb(11, 130, 204), rgb(9, 54, 4));
+    border-radius: 50%;
+    animation-duration: 3s;
+    /* animation-timing-function: ease-in-out;  */
+    animation-fill-mode: forwards;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 260px;
+    animation-iteration-count: infinite;
+    transition: width 2s, height 2s, transform 2s;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  }
+  
+  .second-circle-d {
+    background-color: blue; 
+  }
+  
+  @keyframes moveFirstCircle-d {
+    0% {
+      transform: translateX(0) translateY(0); /* Initial position */
+    }
+    /* 15% {
+      transform: translateX(120) translateY(-80); 
+    } */
+    25% {
+      transform: translateX(60) translateY(-120); /* Initial position */
+    }
+    50% {
+      transform: translateX(140px) translateY(160px); /* Mid-point of parabolic motion */
+    }
+    100% {
+      transform: translateX(300px) translateY(0); /* Final position */
+    }
+    
+  }
+  
+  
+  @keyframes moveBackward-d {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-180px); /* Adjust distance and direction */
+    }
+  }
+  
+  .circle-d.animate {
+    animation-name: moveFirstCircle-d;
+    animation-delay: 1s;
+  }
+  
+  .circle-d.move-backward-d {
+    animation-name: moveBackward-d;
+    animation-delay: 1s;
+  }
+  
+  

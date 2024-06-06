@@ -1,0 +1,35 @@
+.ptd {
+    text-align: center;
+    background: linear-gradient(to right, rgb(232, 232, 226), rgb(194, 34, 202));
+  }
+
+  .ptd:hover {
+    background: linear-gradient(to right, rgb(232, 232, 226), rgb(202, 154, 34));
+  }
+  
+  .ptd-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: rgb(22, 5, 5);
+  }
+  
+  .content-ptd {
+    padding: 20px;
+  }
+  
+  .ptd-section {
+    margin: 20px 0;
+  }
+  
+  .ptd-section h2 {
+    color: #61dafb;
+  }
+  
+  .ptd-section pre {
+    text-align: left;
+    background-color: #6087ad;
+    padding: 2px;
+    border-radius: 5px;
+    max-width: 1300px;
+  }
+  

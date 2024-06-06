@@ -1,0 +1,20 @@
+.animation-lottie {
+    display: flex;   
+    height: 100vh;
+    background: linear-gradient(to right, rgb(9, 229, 24), rgb(207, 119, 19));
+}
+
+.animation-lottie:hover {
+    background: linear-gradient(to right, rgb(82, 225, 54), rgb(197, 58, 15));
+    transform: rotate(180deg);
+}
+
+.gap {
+    margin: 20px 20px;
+    padding: 30px;
+}
+
+.hamster {
+    margin-right: -0px;
+    padding: 10px;
+}

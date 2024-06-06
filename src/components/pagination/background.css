@@ -1,0 +1,140 @@
+
+.bgimage {
+    background-image: url('../../images/LightBlue.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.headingimage {
+    background-image: url('../../images/LightBlue.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.adbimage {
+    background-image: url('../../images/LightBlue.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.btimage {
+    background-image: url('../../images/LightBlue.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+   
+.wcuimage {
+    background-image: url('../../images/LightBlue.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.contactimage {
+    background-image: url('../../images/LightBlue.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.li-strong{
+  font-size: 24px;
+  color: rgb(99, 6, 133);
+}
+
+  
+.bgcolors {
+    background: linear-gradient(to right, rgb(239, 236, 236), rgb(223, 76, 76));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #600896;
+    font-size: 16px; 
+  }
+  
+  .bgcolors:hover {
+    background: linear-gradient(to right,  rgb(210, 214, 210), rgb(50, 198, 42));
+    /* animation: changeColor 4s infinite;  */
+    animation-name: changeColor;
+    animation-duration: 4s;
+  }
+
+
+  .bgcolors  ul {
+    padding-left: 10px;
+  }
+
+   .bgcolors  li {
+    margin-left: 10px;
+    padding-left: 10px; 
+  }
+
+  .bgcolors h3 {
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+
+  .bgcolors p {
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+
+  .small-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border: 1.5px solid #39b1b5;
+    border-radius: 5px;
+    width: 140px;
+    position: sticky;
+    align-content: space-around;
+    align-items: stretch;
+    margin: 10px;
+    justify-content: center;
+    background: linear-gradient(to right,  rgb(240, 235, 240), rgb(73, 138, 230)); 
+  }
+
+  .small-card:hover,
+  .small-card:focus{
+    transform: scale(1.10);   
+  }
+  
+  .skype-icon {
+    font-size: 2em;
+    margin-bottom: 5px;
+    padding-right: 10px;
+  }
+
+  .vertical-line {
+    border-left: 2px solid #075994; /* Adjust thickness and color as needed */
+    height: 100px; /* Adjust height as needed */
+    margin: 0 20px; /* Adjust margin as needed */
+  }
+
+  .verticlesolidbar { 
+    /* margin-Left: 20px; */
+    padding: 15px;
+    align-Content: center;
+    border:2px solid #04a63d;
+    background:linear-gradient(to bottom,  rgb(240, 235, 240), rgb(133, 193, 201));
+    border-radius: 8px;
+    width: 94px;
+    margin: 20px;
+    height: 340px;
+  }
+
+  .verticlesolidbar:hover,
+  .verticlesolidbar:focus{
+    transform: scale(1.06);   
+  }
+
+  .card-img-top {
+    width: 150px; /* Adjust width as needed */
+    height: 24px; /* Adjust height as needed */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  .logo:hover {
+    transform: scale(2.5); /* Increase the size by 20% */
+  }
+  

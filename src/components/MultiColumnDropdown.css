@@ -1,0 +1,117 @@
+.multidropdown-menu {
+    background: rgb(16, 16, 16);
+    min-width: 400px;
+    width: auto;
+    position: absolute;
+    top: 62px;
+    list-style: none;
+    /* text-align: start;    */
+    right: 0;
+    border-radius: 10px;
+  }
+  
+  .multidropdown-menu li {
+    /* background: #101111; */
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .multidropdown-menu li:hover {
+    background: #093f81;
+  }
+  
+  .multidropdown-menu.clicked {
+    display: none;
+  }
+  
+  .multidropdown-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+
+  .multidropdown-column {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: inline-block; /* Display columns inline */
+    vertical-align: top; /* Align columns to the top */
+    margin-right: 20px; /* Adjust margin between columns */
+   
+  }
+  
+  .multidropdown-column li {
+    margin-bottom: 10px; /* Adjust margin between list items */
+  }
+  
+  .dropdown-column li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set text color */
+  }
+  
+  .dropdown-column li a:hover {
+    color: white; /* Change text color on hover */
+  }
+  
+   .dropdown-column {
+    float: left;
+    width: 30%; 
+    padding: 10px;
+    box-sizing: border-box;    
+  }
+
+  .dropdown-column a {
+    display: block;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+  }
+  
+  .dropdown-column  a:hover {
+    background: #093f81;
+  }
+  
+  @media screen and (max-width: 769px) {
+    
+    dropdown-menu {
+      background: red;
+      width: 200px;
+      position: absolute;
+      top: 140px;
+      list-style: none;
+      text-align: start;
+    }
+
+    .multidropdown-menu.clicked {
+      display: none;
+    }
+
+    .fa-caret-down {
+      display: none;
+    }
+    .multidropdown-menu li {
+      background: #1888ff;
+      cursor: pointer;
+    }
+    
+    .multidropdown-menu li:hover {
+      background: #5cabff;
+    }
+    .multidropdown-link {
+      display: block;
+      height: 100%;
+      width: 100%;
+      text-decoration: none;
+      color: #fff;
+      padding: 16px;
+      cursor: pointer;
+    }
+   
+  }

@@ -1,0 +1,65 @@
+.cardrotation {
+  background: linear-gradient(to right, rgb(232, 232, 226), rgb(85, 187, 230));
+}
+
+.cardrotation:hover {
+  background: linear-gradient(to right, rgb(232, 232, 226), rgb(93, 9, 158));
+}
+
+.cardcontainer {   
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 30vh;
+  transition: transform 0.5s ease;
+  overflow: hidden;
+}
+
+.paused {
+  animation-play-state: paused;
+}
+
+.left-to-right {
+  animation: leftToRight 36s linear infinite;
+}
+
+.right-to-left {
+  animation: rightToLeft 36s linear infinite;
+}
+
+@keyframes leftToRight {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(100%);
+  }
+}
+
+@keyframes rightToLeft {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}
+
+.card-rt {
+  transition: transform 0.3s;
+  width: 300px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.content hr {
+  width: 340px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #2727d6; 
+}
+
+.logo {
+  color: rgb(23, 8, 5);
+  text-decoration: none;
+}

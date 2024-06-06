@@ -1,0 +1,48 @@
+.embeddings {
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .embeddings h2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .embeddings p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .embeddings ul {
+    margin-bottom: 20px;
+  }
+  
+  .embeddings li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .embeddings code {
+    font-family: monospace;
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: black;
+  }
+  
+  pre code {
+    display: block;
+    padding: 10px;
+    white-space: pre-wrap;
+  }
+  
+  .embeddings pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+    color: black;
+  }
+  
+  

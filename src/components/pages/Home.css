@@ -1,0 +1,49 @@
+.home {
+    text-align: center;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%; /* Set width to 100% to fill the container */
+    border-radius: 10px; /* Rounded corners for the container */
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  .background-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the background color and opacity */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%; /* Set the width of the details container */
+    max-width: 600px; /* Set maximum width to prevent it from becoming too wide */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .details h1 {
+    font-size: 2rem;
+    margin-bottom: 20px; /* Add margin below the heading */
+  }
+  
+  .details p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  /* styles.css */
+.content-container {
+  margin-top: 20px; /* Adjust margin as needed */
+  padding: 20px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Optional: Add border for better visibility */
+}
+
+
+
+  

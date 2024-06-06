@@ -1,0 +1,46 @@
+.chromadb {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgb(232, 232, 226), rgb(74, 131, 238));
+  }
+
+  .chromadb:hover {    
+    background: linear-gradient(to right, rgb(232, 232, 226), rgb(225, 145, 41));
+  }
+  
+  
+  .chromadb h1, .chromadb h2, .chromadb h3 {
+    color: #333;
+  }
+  
+  .chromadb pre {
+    background: #1b1a1a;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  
+  .chromadb code {
+    font-family: Consolas, 'Courier New', Courier, monospace;
+  }
+  
+  .chromadb ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .chromadb ul li {
+    margin: 10px 0;
+  }
+  
+  .chromadb ul li a {
+    color: #1a0dab;
+    text-decoration: none;
+  }
+  
+  .chromadb ul li a:hover {
+    text-decoration: underline;
+  }
+  

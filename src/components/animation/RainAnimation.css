@@ -1,0 +1,221 @@
+
+.rainanimation {
+    height: 100vh;
+    background: linear-gradient(to right, rgb(232, 232, 226), rgb(8, 126, 176));
+}
+
+.rainanimation:hover {
+    margin-top: 40px;
+    background: linear-gradient(to right, rgb(232, 232, 226), rgb(150, 16, 67));
+    transform: rotate(35deg);
+    width:1300px;
+    border-radius: 10px;
+} 
+
+.rain-animated-circle {    
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: relative;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 10px;
+  }
+  
+  @keyframes circle {
+    0%   {background-color: red; left: 20px; top: 20px; bottom: 300px;}
+    25%  {background-color: yellow; left: 380px; top: 20px; bottom: 250px;}
+    50%  {background-color: rgb(0, 0, 255); left: 800px; top: 20px; bottom: 200px;}
+    75%  {background-color: rgb(52, 207, 52); left: 1300px; top: 20px; bottom: 150px;}
+    100% {background-color: red; left: 20px; top: 20px; bottom: 300px;}
+    
+  }
+
+  .rain-animated-square {    
+    width: 20px;
+    height: 20px;
+    background-color: rgb(225, 191, 20);
+    position: relative;
+    animation-name: square;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+    border-radius: 10px;
+  }
+  
+  @keyframes square {
+    0%   {background-color: rgb(42, 219, 205); left: 40px; top: 20px;}
+    25%  {background-color: rgb(11, 171, 115); left: 280px; top: 20px;}
+    50%  {background-color: rgb(159, 57, 223); left: 520px; top: 20px;}
+    75%  {background-color: rgb(42, 230, 42); left: 960px; top: 20px;}
+    100% {background-color: rgb(237, 62, 114); left: 30px; top: 20px;}
+  }
+  
+
+
+  .rain-animated-rectangle {    
+    width: 20px;
+    height: 20px;
+    background-color: rgb(33, 220, 211);
+    position: relative;
+    animation-name: rectangle;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+    border-radius: 10px;
+  }
+  
+  @keyframes rectangle {
+    0%   {background-color: rgb(89, 239, 97); left: 60px; top: 20px;}
+    25%  {background-color: rgb(229, 59, 59); left: 660px; top: 20px;}
+    50%  {background-color: rgb(75, 203, 231); left: 1050px; top: 20px;}
+    75%  {background-color: rgb(204, 69, 234); left: 1240px; top: 20px;}
+    100% {background-color: rgb(213, 238, 24); left: 20px; top: 20px;}
+  }
+  
+  .rain-animated-circle-1 {    
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: relative;
+    animation-name: circle-1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 10px;
+  }
+  
+  @keyframes circle-1 {
+    0%   {background-color: red; right: -10px; top: 20px;}
+    25%  {background-color: yellow; right: -280px; top: 20px;}
+    50%  {background-color: rgb(0, 0, 255); right: -420px; top: 20px;}
+    75%  {background-color: rgb(52, 207, 52); right: -840px; top: 30px;}
+    100% {background-color: red; right: -1120px; top: 20px;}
+  }
+
+
+  .rain-animated-square-1 {    
+    width: 20px;
+    height: 20px;
+    background-color: rgb(225, 191, 20);
+    position: relative;
+    animation-name: square-1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+    border-radius: 10px;
+  }
+  
+  @keyframes square-1 {
+    0%   {background-color: rgb(42, 219, 205); right: -10px; top: 10px;}
+    25%  {background-color: rgb(11, 171, 115); right: -80px; top: 10px;}
+    50%  {background-color: rgb(159, 57, 223); right: -20px; top: 10px;}
+    75%  {background-color: rgb(42, 230, 42); right: -60px; top: 10px;}
+    100% {background-color: rgb(237, 62, 114); right: -30px; top: 10px;}
+  }
+  
+
+
+  .rain-animated-rectangle-1 {    
+    width: 20px;
+    height: 20px;
+    background-color: rgb(33, 220, 211);
+    position: relative;
+    animation-name: rectangle-1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+    border-radius: 10px;
+  }
+  
+  @keyframes rectangle-1 {
+    0%   {background-color: rgb(89, 239, 97); right: -20px; top: 20px;}
+    25%  {background-color: rgb(229, 59, 59); right: -1160px; top: 20px;}
+    50%  {background-color: rgb(75, 203, 231); right: -1050px; top: 30px;}
+    75%  {background-color: rgb(204, 69, 234); right: -1240px; top: 20px;}
+    100% {background-color: rgb(213, 238, 24); right: -20px; top: 30px;}
+  }
+  
+  .rain-animated-circle-2 {    
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: relative;
+    animation-name: circle-2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 10px;
+  }
+  
+  @keyframes circle-2 {
+    0%   {background-color: rgb(44, 155, 207); left: 900px; top: 10px;}
+    25%  {background-color: rgb(183, 28, 7); left: 380px; top: 70px;}
+    50%  {background-color: rgb(198, 25, 201); left: 700px; top: 120px;}
+    75%  {background-color: rgb(43, 235, 43); left: 900px; top: 220px;}
+    100% {background-color: rgb(44, 26, 207); left: 1320px; top: 320px;}
+  }
+
+
+  .rain-animated-square-2 {    
+    width: 40px;
+    height: 40px;
+    background-color: rgb(225, 191, 20);
+    position: relative;
+    animation-name: square-2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+    /* border-radius: 20px; */
+  }
+  
+  @keyframes square-2 {
+    0%   {background-color: rgb(219, 232, 37); left: 320px; top: 20px;}
+    25%  {background-color: rgb(11, 171, 115); left: 280px; top: 100px;}
+    50%  {background-color: rgb(116, 15, 179); left: 520px; top: 150px;}
+    75%  {background-color: rgb(42, 230, 42); left: 960px; top: 230px;}
+    100% {background-color: rgb(17, 189, 120); left: 1200px; top: 350px;}
+  }
+  
+
+
+  .animated-rectangle-2 {    
+    width: 40px;
+    height: 40px;
+    background-color: rgb(33, 220, 211);
+    position: relative;
+    animation-name: rectangle-2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;   
+    border-radius: 20px;
+  }
+  
+  @keyframes rectangle-2 {
+    0%   {background-color: rgb(42, 203, 50); left: 360px; top: 10px;}
+    25%  {background-color: rgb(149, 30, 30); left: 660px; top: 90px;}
+    50%  {background-color: rgb(75, 203, 231); left: 1050px; top: 220px;}
+    75%  {background-color: rgb(173, 20, 207); left: 1240px; top: 310px;}
+    100% {background-color: rgb(49, 100, 202); left: 1320px; top: 390px;}
+  }
+  

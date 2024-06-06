@@ -1,0 +1,54 @@
+.llmscontainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .llmscontainer .section {
+    margin-bottom: 20px;
+  }
+  
+  .llmexplained h1 {
+    text-align: center;
+  }
+  
+  .llmexplained h2 {
+    margin-bottom: 10px;
+  }
+  
+  .llmexplained p, ul, ol {
+    text-align: justify;
+  }
+  
+  .llmexplained ul, ol {
+    margin-left: 20px;
+  }
+  
+  .llmexplained li {
+    margin-bottom: 5px;
+  }
+
+
+  .llmexplained {
+    background: linear-gradient(to right, rgb(241, 243, 245), rgb(201, 191, 41));
+    background-position: center;
+    background-size: cover; 
+    color: #121213;
+    font-size: 16px;   
+    padding:10px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .llmexplained:hover { 
+    background: linear-gradient(to right, rgb(241, 243, 245), rgb(179, 55, 36));
+    animation-name: changeColor;
+    animation-duration: 4s;
+  }
+  

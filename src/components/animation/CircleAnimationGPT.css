@@ -1,0 +1,63 @@
+
+
+.circle-container {
+  display: flex; 
+  margin: 30px;
+  padding: 10px;
+  justify-content:center ;
+  align-content: center;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(to top, rgb(67, 31, 30), rgb(45, 185, 124), rgb(206, 35, 16), rgb(238, 237, 239));
+  border-radius: 50%;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out; 
+  animation-fill-mode: forwards;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 260px;
+  animation-iteration-count: infinite;
+}
+
+.second-circle {
+  background-color: blue; 
+}
+
+@keyframes moveFirstCircle {
+  0% {
+    transform: translateX(0) translateY(0); /* Initial position */
+  }
+  25% {
+    transform: translateX(160) translateY(-150); /* Initial position */
+  }
+  50% {
+    transform: translateX(180px) translateY(-160px); /* Mid-point of parabolic motion */
+  }
+ 
+  100% {
+    transform: translateX(270px) translateY(0); /* Final position */
+  }
+}
+
+@keyframes moveBackward {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-180px); /* Adjust distance and direction */
+  }
+}
+
+.circle.animate {
+  animation-name: moveFirstCircle;
+  animation-delay: 1s;
+}
+
+.circle.move-backward {
+  animation-name: moveBackward;
+  animation-delay: 1s;
+}
+
